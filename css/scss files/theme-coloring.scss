@@ -1,0 +1,60 @@
+$primary-background-color: #666699;
+$primary-background-darker-color: #151843;
+$primary-background-lighter-color: #CFD8FF;
+$img-border-color: #e3e3e3;
+
+.navbar{
+	background:$primary-background-color;
+}
+.navbar-default .navbar-nav > li > a{
+	color:white;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color:white;
+	background-color:$primary-background-darker-color;
+}
+.dp-box h1 span{
+	border-bottom:1px dashed $primary-background-darker-color;
+}
+.dp{
+	border:1px solid $primary-background-darker-color;
+	background:#eee;
+}
+#bb-first-page{
+	background:$primary-background-color;
+}
+.first-page-right{
+	color:#fff;
+}
+.first-page-left{
+	background:$primary-background-color;
+	color:$primary-background-darker-color;
+}
+.page-heading{
+	border-bottom:1px dashed $primary-background-color;
+}
+.content-block{
+	border-bottom:1px solid $img-border-color;
+}
+.education h2{
+	border-bottom:1px solid $img-border-color;
+}
+.portfolio-item{
+	border:1px solid $img-border-color;
+	margin-bottom: 30px;
+	background: $primary-background-lighter-color;
+}
+.panel-default > .panel-heading {
+	background-color: $primary-background-lighter-color;
+}
+#contact-map img{
+	border: 1px solid $img-border-color;
+}
+.bb-custom-wrapper > nav a {
+	background: $primary-background-darker-color;
+	color: #fff;
+}
+.slide-out-div {
+ 	background: #fff;
+	border: $primary-background-darker-color 1px solid;
+}
